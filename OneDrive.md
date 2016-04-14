@@ -1,6 +1,6 @@
 # OneDrive Graph API Samples#
 
-Thses samples build on the access_token you received in the [Azure AD v2 Auth Flow](Azure AD v2 Auth Flow.md) sample. 
+Thses samples build on the access_token you received in the [Azure AD v2 Auth Flow](AzureADv2AuthFlow.md) sample. 
 
 ## Required Scopes for these Samples ##
 These samples required the following permissions scopes
