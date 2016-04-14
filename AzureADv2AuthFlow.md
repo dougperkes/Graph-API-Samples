@@ -7,8 +7,10 @@
 5. Click **Add Platform**, select **Web**. Enter a non-resolving URL for demo purposes only: http://localhost/nopage
 6. Click **Save**
 
+```
 Application ID: 7992df25-0718-4861-8e4f-26146069f7e0
 App Secret: YGBvC...[redacted]
+```
 
 ## Step 2: Determine permission scopes ##
 
