@@ -29,7 +29,7 @@ http%3A%2F%2Flocalhost%2Fnopage
 
 1. Build up an authorization URL using the following template
 
-https://login.microsoftonline.com/common/oauth2/v2.0/authorize?client_id={ApplicationID}&scope={EncodedScope}&redirect_uri={RedirectURL}&response_type=code
+`https://login.microsoftonline.com/common/oauth2/v2.0/authorize?client_id={ApplicationID}&scope={EncodedScope}&redirect_uri={RedirectURL}&response_type=code`
 
 For my sample, this will be:
 
@@ -61,10 +61,12 @@ scope={Unencoded Scope}
 
 **Full HTTP Request**
 
+```
 POST https://login.microsoftonline.com/common/oauth2/v2.0/token
 Content-Type: application/x-www-form-urlencoded
 
-`scope=https%3A%2F%2Fgraph.microsoft.com%2FFiles.ReadWrite+https%3A%2F%2Fgraph.microsoft.com%2FUser.Read&grant_type=authorization_code&client_id=7992df25-0718-4861-8e4f-26146069f7e0&client_secret=YGBvC...[redacted]&redirect_uri=http%3A%2F%2Flocalhost%2Fnopage&code=OAAABAAAAiL...[redacted]`
+scope=https%3A%2F%2Fgraph.microsoft.com%2FFiles.ReadWrite+https%3A%2F%2Fgraph.microsoft.com%2FUser.Read&grant_type=authorization_code&client_id=7992df25-0718-4861-8e4f-26146069f7e0&client_secret=YGBvC...[redacted]&redirect_uri=http%3A%2F%2Flocalhost%2Fnopage&code=OAAABAAAAiL...[redacted]
+```
 	
 **Response**
 	
@@ -117,3 +119,4 @@ Authorization: bearer eyJ0eXAiOiJKV1Q...[redacted]
   "id": "a864094e-b1c1-47e1-b3cd-f2e111ac3c59"
 }
 ```
+## Continue to [OneDrive samples](onedrive.md)##
